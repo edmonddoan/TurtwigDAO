@@ -13,7 +13,7 @@ if(!process.env.PRIVATE_KEY || process.env.PRIVATE_KEY == "") {
 }
 
 if(!process.env.ALCHEMY_API_URL || process.env.ALCHEMY_API_URL == "") {
-    console.log("🛑 Alechemy API URL not found.")
+    console.log("🛑 Alchemy API URL not found.")
 }
 
 if(!process.env.WALLET_ADDRESS || process.env.WALLET_ADDRESS == "") {
